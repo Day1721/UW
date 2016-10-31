@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.image.Image?>
+
+
+<Dialog fx:id="dialog" fx:controller="???" <!-- TODO tu dodaj kontroller -->
+	xmlns:fx="http://javafx.com/fxml">
+	<dialogPane>
+		<DialogPane prefWidth="400.0" prefHeight="300.0">
+			<stylesheets>
+				<URL value="@/css/styles.css" />
+			</stylesheets>
+			<content>
+				<VBox>
+					<Button fx:id="commentButton" text="Add comment" onAction="#commentButtonAction" />
+					<Button fx:id="surveyButton" text="Add survey" onAction="#surveyButtonAction"/>
+					<Button fx:id="taskButton" text="Add task" onAction="#taskButtonAction" />
+					<Button fx:id="suggestionButton" text="Add suggestion" onAction="#suggestionButtonAction" />
+				</VBox>
+			</content>
+		</DialogPane>
+	</dialogPane>
+</Dialog>
